@@ -111,3 +111,19 @@ This project demonstrates my capabilities in both front-end and back-end develop
    http://localhost:8000
    ```
 
+## Potential Next Steps
+```
+Implement WebSocket for real-time chat.
+```
+```
+Add user profile customization.
+```
+```
+Enhance the UI with better styling and responsiveness.
+```
+```
+Deploy the application using Docker and Kubernetes for scalability.
+```
+
+
+
