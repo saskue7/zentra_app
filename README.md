@@ -13,9 +13,9 @@ If an interest is accepted, a chat interface is enabled where both users can sen
 
 ## Documentation
 ### Prerequisites and Dependencies
-Python 3.8+
-Node.js 14+
-Django 3.2+
-React 17+
-PostgreSQL 12+ (or SQLite for simplicity)
-Docker (optional, for containerization)
+#### Python 3.8+
+#### Node.js 14+
+#### Django 3.2+
+#### React 17+
+#### PostgreSQL 12+ (or SQLite for simplicity)
+#### Docker (optional, for containerization)
