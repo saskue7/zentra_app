@@ -31,33 +31,33 @@ Backend Setup:
 
 -----------
 cd backend
-----------
+
 #### Create a virtual environment and activate it:
 
 ------------
 pipenv shell  
------------
+
 #### Install dependencies:
 
 ---------------------
 ##### pipenv install
 ##### cd zentra_app
----------------------
+
 #### Set up the database:
 
 -------------------------------------
-##### python manage.py makemigrations
-##### python manage.py migrate
--------------------------------------
+python manage.py makemigrations
+python manage.py migrate
+
 #### Create a superuser:
 
 --------------------------------------
-##### python manage.py createsuperuser
---------------------------------------
+python manage.py createsuperuser
+
 #### Run the development server:
+-------------------------------
 
-
-##### python manage.py runserver
+python manage.py runserver
 
 ### Frontend Setup:
 
@@ -65,10 +65,10 @@ pipenv shell
 
 ----------------
 cd frontend/core
-----------------
+
 #### Install dependencies:
 -----------------
-##### npm install
+npm install
 #### Start the development server:
 -----------------
 npm run dev
@@ -80,7 +80,7 @@ cd backend
 pipenv shell 
 cd zentra_app
 python manage.py runserver
----------------------------
+
 ### Ensure the frontend server is running:
 
 -------------
@@ -90,4 +90,4 @@ npm start
 ### Open your web browser and navigate to:
 ---------------------
 http://localhost:8000
----------------------
+
