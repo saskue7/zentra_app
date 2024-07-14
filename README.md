@@ -21,36 +21,39 @@ If an interest is accepted, a chat interface is enabled where both users can sen
 #### Docker (optional, for containerization)
 
 ### Step-by-Step Installation and Setup Instructions
-Clone the Repository:
-
-
-#### Copy code
-git clone https://github.com/your-username/full-stack-app.git
+#### Clone the Repository:
+-------------------------------------------------------------
+git clone https://github.com/saskue7/zentra_app.git
 cd full-stack-app
 Backend Setup:
 
 #### Navigate to the backend directory:
 
-
+-----------
 cd backend
+----------
 #### Create a virtual environment and activate it:
 
-
-pipenv shell  # On Windows use `env\Scripts\activate`
+------------
+pipenv shell  
+-----------
 #### Install dependencies:
 
-
+---------------------
 ##### pipenv install
 ##### cd zentra_app
+---------------------
 #### Set up the database:
 
-
+-------------------------------------
 ##### python manage.py makemigrations
 ##### python manage.py migrate
+-------------------------------------
 #### Create a superuser:
 
-
+--------------------------------------
 ##### python manage.py createsuperuser
+--------------------------------------
 #### Run the development server:
 
 
@@ -60,9 +63,30 @@ pipenv shell  # On Windows use `env\Scripts\activate`
 
 #### Open a new terminal and navigate to the frontend directory:
 
-
+----------------
 cd frontend/core
+----------------
 #### Install dependencies:
+-----------------
 ##### npm install
 #### Start the development server:
 ##### npm run dev
+-----------------
+## How to Run the Application
+### Ensure the backend server is running:
+--------------------------
+cd backend
+pipenv shell 
+cd zentra_app
+python manage.py runserver
+---------------------------
+### Ensure the frontend server is running:
+
+-------------
+cd frontend
+npm start
+-------------
+### Open your web browser and navigate to:
+---------------------
+http://localhost:8000
+---------------------
