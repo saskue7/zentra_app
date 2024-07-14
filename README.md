@@ -33,7 +33,7 @@ This project demonstrates my capabilities in both front-end and back-end develop
 
 1. **Clone the Repository:**
    ```
-  git clone -b master  https://github.com/saskue7/zentra_app.git
+   git clone -b master  https://github.com/saskue7/zentra_app.git
    cd zentra_app
    ```
 
