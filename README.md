@@ -19,3 +19,54 @@ If an interest is accepted, a chat interface is enabled where both users can sen
 #### React 17+
 #### PostgreSQL 12+ (or SQLite for simplicity)
 #### Docker (optional, for containerization)
+
+### Step-by-Step Installation and Setup Instructions
+Clone the Repository:
+
+
+#### Copy code
+git clone https://github.com/your-username/full-stack-app.git
+cd full-stack-app
+Backend Setup:
+
+#### Navigate to the backend directory:
+
+Copy code
+cd backend
+#### Create a virtual environment and activate it:
+
+Copy code
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+#### Install dependencies:
+
+Copy code
+pip install -r requirements.txt
+#### Set up the database:
+
+Copy code
+python manage.py makemigrations
+python manage.py migrate
+#### Create a superuser:
+
+Copy code
+python manage.py createsuperuser
+#### Run the development server:
+
+Copy code
+python manage.py runserver
+
+### Frontend Setup:
+
+#### Open a new terminal and navigate to the frontend directory:
+
+Copy code
+cd frontend/core
+#### Install dependencies:
+
+Copy code
+npm install
+#### Start the development server:
+
+Copy code
+npm run dev
