@@ -31,42 +31,38 @@ Backend Setup:
 
 #### Navigate to the backend directory:
 
-Copy code
+
 cd backend
 #### Create a virtual environment and activate it:
 
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+pipenv shell  # On Windows use `env\Scripts\activate`
 #### Install dependencies:
 
-Copy code
-pip install -r requirements.txt
+
+##### pipenv install
+##### cd zentra_app
 #### Set up the database:
 
-Copy code
-python manage.py makemigrations
-python manage.py migrate
+
+##### python manage.py makemigrations
+##### python manage.py migrate
 #### Create a superuser:
 
-Copy code
-python manage.py createsuperuser
+
+##### python manage.py createsuperuser
 #### Run the development server:
 
-Copy code
-python manage.py runserver
+
+##### python manage.py runserver
 
 ### Frontend Setup:
 
 #### Open a new terminal and navigate to the frontend directory:
 
-Copy code
+
 cd frontend/core
 #### Install dependencies:
-
-Copy code
-npm install
+##### npm install
 #### Start the development server:
-
-Copy code
-npm run dev
+##### npm run dev
