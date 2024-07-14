@@ -102,7 +102,7 @@ This project demonstrates my capabilities in both front-end and back-end develop
 
 1. Navigate to the frontend directory:
    ```
-   cd frontend
+   cd frontend/core
    npm run dev
    ```
 
