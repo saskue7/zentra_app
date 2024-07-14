@@ -45,6 +45,7 @@ This project demonstrates my capabilities in both front-end and back-end develop
 3. **Create a virtual environment and activate it:**
    ```
    pipenv shell
+   cd zentra_app
    ```
 
 4. **Install dependencies:**
