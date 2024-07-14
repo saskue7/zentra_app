@@ -10,3 +10,12 @@ Logged-in users can browse a list of other users and send an interest message.
 Users can view received interest messages and accept or reject them.
 ### Chat System:
 If an interest is accepted, a chat interface is enabled where both users can send and receive messages in real-time.
+
+## Documentation
+### Prerequisites and Dependencies
+Python 3.8+
+Node.js 14+
+Django 3.2+
+React 17+
+PostgreSQL 12+ (or SQLite for simplicity)
+Docker (optional, for containerization)
