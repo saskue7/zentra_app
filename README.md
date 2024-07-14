@@ -70,7 +70,8 @@ cd frontend/core
 -----------------
 ##### npm install
 #### Start the development server:
-##### npm run dev
+-----------------
+npm run dev
 -----------------
 ## How to Run the Application
 ### Ensure the backend server is running:
